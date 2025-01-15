@@ -5,8 +5,8 @@ import json
 app = Flask(__name__)
 
 # Replace with your Azure ML endpoint URL and API key
-endpoint_url = "https://mlproject-cgukz.uksouth.inference.ml.azure.com/score"
-api_key = "35TggteAJSvZy9d2F8gLwfOtEhlsnusc"
+endpoint_url = ""
+api_key = ""
 
 @app.route("/")
 def home():
